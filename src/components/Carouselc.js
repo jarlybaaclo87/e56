@@ -5,7 +5,7 @@ const Carouselc=()=> {
     <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
-          className="w-100 imgSize"
+          className="w-100 imgSize px-5"
           src="images/com.jpg"
           alt="First slide"
         />
@@ -16,7 +16,7 @@ const Carouselc=()=> {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className=" w-100 imgSize"
+          className=" w-100 imgSize px-5"
           src="images/elec.jpg"
           alt="Second slide"
         />
@@ -27,7 +27,7 @@ const Carouselc=()=> {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className=" w-100 imgSize"
+          className=" w-100 imgSize px-5"
           src="images/homerepair.png"
           alt="Third slide"
         />

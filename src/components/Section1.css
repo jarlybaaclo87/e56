@@ -5,4 +5,6 @@
 .imgSize{
     height: 700px;
     width: 700px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
