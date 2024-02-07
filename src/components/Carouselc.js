@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const Carouselc=()=> {
   return (
+    <div className='mx-5 my-5'>
     <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
@@ -39,6 +40,7 @@ const Carouselc=()=> {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 

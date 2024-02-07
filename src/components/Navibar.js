@@ -5,7 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 const Navibar = ()=> {
   return (
     <>
-      <Navbar bg="primary" data-bs-theme="dark">
+    <header className='rounded'>
+      <Navbar className="fluid" bg="primary" data-bs-theme="dark" style={{ height: '100px'}}>
         <Container>
           <Navbar.Brand href="#home">KodeGo Bootcamp</Navbar.Brand>
           <Nav className="me-auto">
@@ -15,6 +16,7 @@ const Navibar = ()=> {
           </Nav>
         </Container>
       </Navbar>
+      </header>
     </>
   );
 }
